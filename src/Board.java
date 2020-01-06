@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+// Hold the board for pong to take place. Along with that it holds the paddle, ball, and the timer.
 public class Board extends JPanel implements ActionListener {
 
     final int WIDTH = 800;
